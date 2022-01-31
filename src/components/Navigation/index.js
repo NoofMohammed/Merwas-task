@@ -22,23 +22,7 @@ const Navigation = () => {
               <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
             </DropdownButton>
           </div>
-          {/* <div className="dropDown region-dropdown dropdown-overlay-container">
-              <form action="/action_page.php">
-                <select name="car" id="car">
-                  <option value="volvo">Browse Categories</option>
-                  <option value="saab">Activities, Events & Outdoors</option>
-                  <option value="opel">Wellington</option>
-                  <option value="audi">Northland</option>
-                  <option value="audi">ManaWatu</option>
-                  <option value="audi">Wanganui</option>
-                </select>
-                <br />
-              </form>
-            </div> */}
 
-          {/* <Link className="link" to="/BrowseCategories">
-            Browse Categories
-          </Link> */}
           <Link className="link" to="/What'sNow">
             What's Now
           </Link>
@@ -59,7 +43,6 @@ const Navigation = () => {
               <input
                 className="form-control mr-sm-2"
                 type="search"
-                // placeholder=" &#61442; Search GrabOne"
                 placeholder="Search GrabOne"
                 aria-label="Search"
               />

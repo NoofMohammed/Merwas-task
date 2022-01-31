@@ -77,26 +77,7 @@ export const products1 = [
     lastPrice: "$9",
   },
 ];
-export const collections = [
-  // {
-  //   img: "https://mediacdn.grabone.co.nz/asset/UugRLZvL5a",
-  //   title: "$20 Treats",
-  //   description: "Multiple deals",
-  //   city: null,
-  //   bought: null,
-  //   firstPrice: null,
-  //   lastPrice: null,
-  // },
-  // {
-  //   img: "https://main-cdn.grabone.co.nz/goimage/fullsize/32286725841603f9c33fc6257a8b797d24738be8.jpg",
-  //   title: "Mesh Reusable Face Mask",
-  //   description: null,
-  //   city: null,
-  //   bought: "75",
-  //   firstPrice: null,
-  //   lastPrice: "$9",
-  // },
-];
+export const collections = [];
 export const escapes = [
   {
     img: "https://main-cdn.grabone.co.nz/goimage/fullsize/713d82d6b4ac1da73019ddedc6dbf9d60291ea83.jpg",

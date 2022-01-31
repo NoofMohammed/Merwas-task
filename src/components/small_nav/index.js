@@ -38,10 +38,6 @@ const SmallNav = () => {
           <span>Search</span>
         </div>
         <div>
-          {/* <img
-            className="categories"
-            src="https://static.thenounproject.com/png/2351449-200.png"
-          /> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"

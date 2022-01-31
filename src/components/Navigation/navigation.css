@@ -19,7 +19,6 @@
 .search {
   width: 41%;
   display: flex;
-  /* padding-right: -1%; */
 }
 input.form-control.mr-sm-2 {
   width: 227%;
