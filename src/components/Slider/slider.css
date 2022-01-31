@@ -1,0 +1,12 @@
+img.picture {
+  width: 94%;
+  margin-left: 3%;
+  cursor: pointer;
+}
+p.text {
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+  color: #4a403a;
+}

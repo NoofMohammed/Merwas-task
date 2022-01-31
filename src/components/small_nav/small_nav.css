@@ -1,0 +1,29 @@
+.small-nav {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .small-nav {
+    display: block;
+  }
+  path.icon-small-nav {
+    fill: #4f5864;
+  }
+  .small-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 2px;
+    padding: 9px 12px;
+    gap: 18px;
+  }
+  span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  svg.bi.bi-grid {
+    margin-left: 12px;
+  }
+  svg.bi.bi-person {
+    margin-left: 6px;
+  }
+}

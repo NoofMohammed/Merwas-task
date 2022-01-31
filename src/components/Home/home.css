@@ -1,0 +1,118 @@
+.discover {
+  display: flex;
+  justify-content: space-around;
+}
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+.title-discover {
+  margin-left: -19px;
+  display: flex;
+  grid-gap: 28px;
+  gap: 28px;
+  padding: 27px;
+  color: #4f5864;
+}
+span.text-title {
+  font-size: 32px;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+}
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #01b2ee;
+  color: white;
+}
+.subscribe-email {
+  color: #01b2ee;
+  font-size: 24px;
+  font-weight: 700;
+  padding-right: 10px;
+  width: 100%;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 28px;
+  margin-top: 38px;
+  height: 127px;
+  align-items: self-end;
+  max-width: 98%;
+  margin-left: 15px;
+}
+.mb-3.input-group {
+  height: 46px;
+  font-size: 15px;
+  color: #4f5864;
+
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #dce3ed;
+  width: 103%;
+  margin-right: 314px;
+}
+body {
+  background-color: #f4f7fb;
+}
+.text {
+  margin-bottom: 25px;
+}
+.mb-3.input-group {
+  height: 46px;
+  font-size: 15px;
+  color: #4f5864;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #dce3ed;
+  width: 100%;
+  margin-right: 264px;
+}
+@media screen and (max-width: 800px) {
+  .discover {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  img.picture {
+    width: 94%;
+    margin-left: 3%;
+    cursor: pointer;
+    height: 65px;
+    margin-top: 12px;
+  }
+  .subscribe-email {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+  .mb-3.input-group {
+    width: 90%;
+    margin-right: 142px;
+    margin-top: 22px;
+  }
+  .text {
+    text-align: left;
+  }
+  .subscribe-email {
+    width: 100%;
+    height: 100%;
+
+    margin-left: 4px;
+  }
+  button.btn.btn-primary {
+    color: #0d6efd;
+    background-color: #f4f7fb;
+    border: none;
+    width: 40%;
+  }
+  span.text-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 19px;
+    font-weight: 700;
+  }
+}

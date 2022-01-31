@@ -1,0 +1,83 @@
+.navg {
+  display: flex;
+  gap: 32px;
+}
+.Navigation {
+  display: flex;
+  padding: 0px;
+  background-color: #ffffff;
+  justify-content: space-between;
+}
+.pages {
+  width: 44%;
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  width: 50%;
+}
+.search {
+  width: 41%;
+  display: flex;
+  /* padding-right: -1%; */
+}
+input.form-control.mr-sm-2 {
+  width: 227%;
+}
+.link {
+  padding: 13px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration: none;
+  height: 57px;
+  color: #565f6a;
+}
+a.link:hover {
+  color: #3db2ff;
+}
+
+svg {
+  vertical-align: middle;
+
+  width: 27px;
+  height: 27px;
+}
+select#cars {
+  border: none;
+}
+select#car {
+  border: none;
+  background-color: #3a3c3d;
+}
+
+.dropdown {
+  padding: 8px;
+  border: none;
+}
+.btn-light {
+  font-weight: 500 !important;
+  color: #565f6a !important;
+  font-size: 16px !important;
+  border: none !important;
+}
+button#dropdown-basic-button {
+  background-color: #ffffff;
+}
+.btn-light:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.mainLoginInput {
+  height: 40px;
+  padding: 0px;
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 800px) {
+  select#car {
+    border: none;
+    background-color: aliceblue;
+  }
+}

@@ -1,0 +1,8 @@
+li.list-group-item {
+  padding: 15px 20px;
+}
+@media screen and (max-width: 800px) {
+  .main {
+    display: none;
+  }
+}
