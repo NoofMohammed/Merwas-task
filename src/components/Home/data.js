@@ -1,3 +1,4 @@
+// this is data that I used
 export const mainProducts = [
   {
     img: "https://main-cdn.grabone.co.nz/goimage/fullsize/8666386e76e761c42bf3bdef48a3007819885416.jpg",
@@ -77,7 +78,7 @@ export const products1 = [
     lastPrice: "$9",
   },
 ];
-export const collections = [];
+// export const collections = [];
 export const escapes = [
   {
     img: "https://main-cdn.grabone.co.nz/goimage/fullsize/713d82d6b4ac1da73019ddedc6dbf9d60291ea83.jpg",
